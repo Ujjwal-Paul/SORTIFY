@@ -24,7 +24,7 @@ sideBar.addEventListener('click', () => {
         content += `<div class="algorithm-card card">
             <h2 class="algo-name card">${algo.name}</h2>
             <p class="algo-complexity card">Complexity: ${algo.complexity}</p>
-            <img class="algo-sign card" src="../img/${algo.sign}.png" alt="">
+            <img class="algo-sign card" src="./img/${algo.sign}.png" alt="">
         </div>`
     })
 
